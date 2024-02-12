@@ -104,29 +104,47 @@ namespace Imc.Shared
 
         private string DefineClassificacaoImc(double valorImc)
         {
-            if (valorImc < 18.5)
+            if (possui65AnosOuMais)
             {
-                return "Magreza";
-            }
-            else if (valorImc >= 18.5 && valorImc < 24.9)
-            {
-                return "Peso ideal";
-            }
-            else if (valorImc >= 24.9 && valorImc < 29.9)
-            {
-                return "Sobrepeso";
-            }
-            else if (valorImc >= 29.9 && valorImc < 34.9)
-            {
-                return "Obesidade grau I";
-            }
-            else if (valorImc >= 34.9 && valorImc < 39.9)
-            {
-                return "Obesidade grau II";
+                if (valorImc < 22)
+                {
+                    return "Magreza";
+                }
+                else if (valorImc >= 22 && valorImc < 27)
+                {
+                    return "Peso ideal";
+                }
+                else
+                {
+                    return "Sobrepeso";
+                }
             }
             else
             {
-                return "Obesidade grau III";
+                if (valorImc < 18.5)
+                {
+                    return "Magreza";
+                }
+                else if (valorImc >= 18.5 && valorImc < 24.9)
+                {
+                    return "Peso ideal";
+                }
+                else if (valorImc >= 24.9 && valorImc < 29.9)
+                {
+                    return "Sobrepeso";
+                }
+                else if (valorImc >= 29.9 && valorImc < 34.9)
+                {
+                    return "Obesidade grau I";
+                }
+                else if (valorImc >= 34.9 && valorImc < 39.9)
+                {
+                    return "Obesidade grau II";
+                }
+                else
+                {
+                    return "Obesidade grau III";
+                }
             }
         }
 

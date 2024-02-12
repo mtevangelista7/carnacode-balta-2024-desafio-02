@@ -849,17 +849,17 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-M9SAc706nVhdBO0ZwUdZSXqY6kyOwoutQ8UxZJDzpEI=",
+      "hash": "sha256-3fMyzluDfx82AI6hUIHX7oHx\/JJ5kM5IoQcJTy8PU6A=",
       "url": "_framework\/Imc.wasm"
     },
     {
-      "hash": "sha256-sUMRfi\/gqmnw4ZY0PAW9u0Rn8bVJzdJHuKdJ0DHhmLw=",
+      "hash": "sha256-08Mq6ScerAv47IL27PgxHhN96mh85aw1aeLAVtPy\/mQ=",
       "url": "_framework\/Imc.pdb"
     },
     {
-      "hash": "sha256-JqQVhl7a4pDm9lPfwm5PUIJHyA8DakBZ2UP12JDw90w=",
+      "hash": "sha256-n9aySTFf73gkKph7F58lRMwVIOv4mk9XS6WHiDkUZbg=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "3DlDQul\/"
+  "version": "3hrNm1xe"
 };
