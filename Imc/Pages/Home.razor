@@ -1,0 +1,35 @@
+﻿@page "/"
+@using Imc.Shared
+
+<PageTitle>Imc</PageTitle>
+
+@if (bMostrarConteudo)
+{
+    <CalculaIMC CarregaHistorico="HandleButtonClickFromCalculaIMC"></CalculaIMC>
+
+    <HistoricoIMC @ref="historicoIMC"></HistoricoIMC>
+}
+else
+{
+    <Splash></Splash>
+}
+
+
+@code {
+    HistoricoIMC historicoIMC;
+    bool bMostrarConteudo = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Task.Delay(2000);
+
+        bMostrarConteudo = true;
+
+        StateHasChanged();
+    }
+
+    async Task HandleButtonClickFromCalculaIMC()
+    {
+        await historicoIMC.CarregaDados();
+    }
+}

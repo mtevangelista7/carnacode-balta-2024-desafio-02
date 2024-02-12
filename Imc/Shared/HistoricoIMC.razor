@@ -1,0 +1,74 @@
+﻿@using Imc.Models
+@inherits HistoricoIMCBase
+
+<div class="container">
+    <div class="content">
+        <div class="flex flex-column en-animate glow">
+            <div class="div-img-logo">
+                <img class="img-imc-logo" src="assets/icon.png" />
+            </div>
+
+            <div>
+                <h1 class="main-text">Histórico</h1>
+            </div>
+
+            <div class="group-input" style="align-items: center;">
+                <input @bind-value:event="oninput" @bind-value="campoPesquisar" placeholder="Pesquisar..." class="rounded-input" type="text" />
+            </div>
+
+            @if (ListIMC is null || ListIMC.Count == 0)
+            {
+            }
+            else
+            {
+                @foreach (HistoricoImcUsuario item in ListIMC.Where(x => string.IsNullOrEmpty(campoPesquisar) || ConvertStringFiltro(x.Classificacao).Contains(ConvertStringFiltro(campoPesquisar))))
+                {
+                    <div style="margin-top: 10px;" class="flex flex-row">
+                        <div class="item1">
+                            <div class="div-content-square"></div>
+                        </div>
+
+                        <div class="item2">
+                            <div class="flex flex-column">
+                                <div style="margin-bottom: 5px;" class="flex flex-row div-content-history">
+
+                                    @if (item.Imc >= 18.5 && item.Imc < 24.9)
+                                    {
+                                        <span class="main-title-content-history">@item.Classificacao ✅</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="main-title-content-history">@item.Classificacao ⛔️</span>
+                                    }
+
+                                    <span class="time-title-content-history">@FormatarData(item.DataImc)</span>
+                                </div>
+
+
+                                @if (item.Imc >= 18.5 && item.Imc < 24.9)
+                                {
+                                    <div style="margin-bottom: 5px;">
+                                        <span class="text-content-history">
+                                            Parabéns, você está no seu peso ideal, continue mantendo este estilo!
+                                        </span>
+                                    </div>
+                                }
+                                else
+                                {
+                                    <div style="margin-bottom: 5px;">
+                                        <span class="text-content-history">
+                                            Estamos quase lá! Faça alguns ajustes para ficar no peso ideal!
+                                        </span>
+                                    </div>
+                                }
+
+                            </div>
+
+                            <hr style="margin-top: 5px; margin-bottom: 5px;" class="line-sep-content" />
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+</div>

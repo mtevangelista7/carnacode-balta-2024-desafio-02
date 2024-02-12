@@ -1,0 +1,35 @@
+﻿@inherits CalculaIMCBase;
+
+<div class="container">
+    <div class="content">
+
+        <div class="flex flex-column en-animate glow">
+            <div>
+                <h1 class="main-text">Cálculo de IMC</h1>
+            </div>
+
+            <div class="group-input" style="align-items: center;">
+                <input placeholder="Altura" @bind-value="alturaUsuario" class="main-input" type="number" />
+            </div>
+            <div class="group-input">
+                <input placeholder="Peso" @bind-value="pesoUsuario" class="main-input" type="number" />
+            </div>
+            <div class="group-input">
+                <input placeholder="Sexo" @bind-value="sexoUsuario" class="main-input" type="text" />
+            </div>
+
+            <div style="margin-top: 15px; margin-bottom: 15px;">
+                <input checked="@possui65AnosOuMais" @onchange="OnCheckboxChange" type="checkbox" class="input-checkbox" id="65mais" name="65mais" />
+                <label class="label-checkbox" for="65mais">Eu tenho 65 anos ou mais</label>
+            </div>
+
+            <div>
+                <button @onclick="OnClickCalcularImc" class="main-button"><b>Calcular meu IMC</b></button>
+            </div>
+            <div>
+                <button class="second-button"><b>Entenda o cálculo</b></button>
+            </div>
+        </div>
+    </div>
+</div>
+

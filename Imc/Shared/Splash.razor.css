@@ -1,0 +1,15 @@
+﻿.div-img-logo {
+    padding: 10px;
+    border: solid 3px #45FEFE;
+    border-radius: 30px;
+    background-color: white;
+    height: 150px;
+    width: 150px;
+    align-self: center;
+}
+
+.img-imc-logo {
+    width: 100%;
+    height: auto;
+    display: block;
+}
