@@ -3,6 +3,7 @@ using Imc.Models;
 using Microsoft.AspNetCore.Components;
 using Microsoft.JSInterop;
 using System.Text.Json;
+using System.Xml.Linq;
 
 namespace Imc.Shared
 {
@@ -16,6 +17,11 @@ namespace Imc.Shared
         protected string? pesoUsuario;
         protected string? sexoUsuario;
         protected bool possui65AnosOuMais = false;
+
+        // dialog
+        protected ElementReference _element;
+        protected double valorImcDialog;
+        protected string classificacaoImcDialog;
 
         protected async Task OnClickCalcularImc()
         {
@@ -42,7 +48,11 @@ namespace Imc.Shared
                 }
 
                 var resultadoIMC = peso / Math.Pow(altura, 2);
-                await jSRuntime.InvokeVoidAsync("alert", "IMC calculado com sucesso!");
+
+                valorImcDialog = resultadoIMC;
+                classificacaoImcDialog = DefineClassificacaoImc(resultadoIMC);
+
+                await jSRuntime.InvokeVoidAsync("blazorOpenModal", _element);
 
                 if (await localStorage.ContainKeyAsync("listIMC"))
                 {
@@ -159,6 +169,14 @@ namespace Imc.Shared
         protected void OnCheckboxChange(ChangeEventArgs e)
         {
             possui65AnosOuMais = (bool)e.Value;
+        }
+
+        protected void OnClickFecharModal()
+        {
+            valorImcDialog = 0;
+            classificacaoImcDialog = "";
+
+            jSRuntime.InvokeVoidAsync("blazorCloseModal", _element);
         }
     }
 }

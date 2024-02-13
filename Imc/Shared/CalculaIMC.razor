@@ -1,4 +1,5 @@
 ﻿@inherits CalculaIMCBase;
+@inject IJSRuntime JSRuntime
 
 <div class="container">
     <div class="content">
@@ -33,3 +34,60 @@
     </div>
 </div>
 
+<dialog @ref="_element" class="backgroud-main" style="width: 100%; overflow:hidden">
+    <div class="container">
+        <div class="content flex" style="justify-content: center; align-items: center;">
+            <div style="position: relative; width: 100%;">
+                <div class="main-div-content-page en-animate glow">
+                    <div class="flex flex-column">
+
+                        @if (valorImcDialog >= 18.5 && valorImcDialog < 24.9)
+                        {
+                            <h1 class="main-text">✅ Parabéns!</h1>
+
+                            <div class="subtitle-login">
+                                <span>
+                                    Você está no peso ideal, continue <br /> mantendo este estilo!
+                                </span>
+                            </div>
+                        }
+                        else
+                        {
+                            <h1 class="main-text">⛔️ @classificacaoImcDialog</h1>
+                            
+                            @if (valorImcDialog < 18.5)
+                            {
+                                <div class="subtitle-login">
+                                    <span>
+                                        Cuidado você está com o peso abaixo do ideal, <br /> dê uma atenção para sua saúde
+                                    </span>
+                                </div>
+                            }
+                            else
+                            {
+                                <div class="subtitle-login">
+                                    <span>
+                                        Cuidado você está com sobrepeso, <br /> dê uma atenção para sua saúde
+                                    </span>
+                                </div>
+                            }
+                        }
+
+                        <div>
+                            <button @onclick="OnClickFecharModal" class="main-button"><b>Registrar medidas</b></button>
+                        </div>
+                        <div>
+                            <button @onclick="OnClickFecharModal" class="second-button"><b>Ver meu histórico</b></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flutuante">
+                    <div class="div-img-logo">
+                        <img class="img-imc-logo" src="assets/icon-no-bg.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</dialog>
