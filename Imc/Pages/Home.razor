@@ -1,10 +1,30 @@
-﻿@page "/"
+﻿@page "/calcula-imc"
+@inject ILocalStorageService localStorage
+@inject NavigationManager NavigationManager
+
+@using Blazored.LocalStorage
+@using Imc.Models
 @using Imc.Shared
+@using System.Text.Json.Serialization
+@using System.Text.Json
 
 <PageTitle>Imc</PageTitle>
 
 @if (bMostrarConteudo)
 {
+    @if (String.IsNullOrEmpty(nomeUsuario))
+    {
+        <button style="all: unset; width: 100% !important; cursor: pointer !important;" @onclick="Logout">
+            <h4 style="text-align: end; padding-right: 10px">Olá, visitante! ❌</h4>
+        </button>
+    }
+    else
+    {
+        <button style="all: unset; width: 100% !important; cursor: pointer !important;" @onclick="Logout">
+            <h4 style="text-align: end; padding-right: 10px">Olá, @nomeUsuario! ❌</h4>
+        </button>
+    }
+
     <CalculaIMC CarregaHistorico="HandleButtonClickFromCalculaIMC"></CalculaIMC>
 
     <HistoricoIMC @ref="historicoIMC"></HistoricoIMC>
@@ -18,9 +38,22 @@ else
 @code {
     HistoricoIMC historicoIMC;
     bool bMostrarConteudo = false;
+    string nomeUsuario;
 
     protected override async Task OnInitializedAsync()
     {
+        var usuarioLocal = await localStorage.GetItemAsync<string>("usuarioLogado");
+
+        if (usuarioLocal == null)
+        {
+            NavigationManager.NavigateTo("");
+            return;
+        }
+
+        var usuario = JsonSerializer.Deserialize<Usuario>(usuarioLocal);
+
+        nomeUsuario = usuario == null ? "" : usuario.UserName;
+
         await Task.Delay(2000);
 
         bMostrarConteudo = true;
@@ -31,5 +64,11 @@ else
     async Task HandleButtonClickFromCalculaIMC()
     {
         await historicoIMC.CarregaDados();
+    }
+
+    async Task Logout()
+    {
+        await localStorage.RemoveItemAsync("usuarioLogado");
+        NavigationManager.NavigateTo("");
     }
 }

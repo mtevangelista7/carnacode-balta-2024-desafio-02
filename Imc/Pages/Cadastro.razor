@@ -1,0 +1,79 @@
+﻿@inherits CadastroBase;
+@page "/cadastro"
+@using Imc.Shared
+
+<PageTitle>Cadastro</PageTitle>
+
+@if (bMostrarConteudo)
+{
+    <div style="overflow:auto" class="container backgroud-main">
+        <div class="content flex" style="justify-content: center; align-items: center;">
+
+            <div style="position: relative; width: 100%;">
+                <div class="main-div-content-page  en-animate glow">
+                    <div class="flex flex-column">
+                        <div>
+                            <h1 class="main-text">Crie sua conta</h1>
+                        </div>
+
+                        <div class="subtitle-login">
+                            <span>
+                                Você precisa criar uma conta
+                            </span>
+                        </div>
+
+                        <div>
+                            <div class="group-input" style="align-items: center;">
+                                <input placeholder="Seu username" @bind-value="nomeUsuario" class="main-input" type="text" />
+                            </div>
+                            <div class="group-input">
+                                <input placeholder="Seu melhor e-mail" @bind-value="emailUsuario" class="main-input" type="email" />
+                            </div>
+                            <div class="group-input">
+                                <input placeholder="Sua senha" class="main-input" @bind-value="senhaUsuario" type="password" />
+                            </div>
+                            <div class="group-input">
+                                <input placeholder="Confirme sua senha" class="main-input" @bind-value="confirmacaoSenhaUsuario" type="password" />
+                            </div>
+                        </div>
+
+                        <div style="margin-top: 15px; margin-bottom: 15px;">
+                            <input checked="@naoSouRobo" @onchange="OnCheckboxChange" type="checkbox" class="input-checkbox" id="robo" name="robo" />
+                            <label class="label-checkbox" for="robo">Não sou um robô</label>
+                        </div>
+
+                        <div>
+                            <button @onclick="OnClickCadastrar" class="main-button"><b>Criar conta</b></button>
+                        </div>
+                        <div>
+                            <button @onclick="OnClickFazerLogin" class="second-button"><b>Fazer Login</b></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flutuante">
+                    <div class="div-img-logo">
+                        <img class="img-imc-logo" src="assets/icon-no-bg.png" />
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+}
+else
+{
+    <Splash></Splash>
+}
+
+<style>
+    body {
+        background-color: #2E1462 !important;
+    }
+
+    .div1 {
+        width: 100%;
+        height: 100%;
+    }
+</style>

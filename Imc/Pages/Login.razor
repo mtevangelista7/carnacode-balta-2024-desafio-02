@@ -1,0 +1,61 @@
+﻿@inherits LoginBase;
+@page "/"
+@using Imc.Shared
+
+<PageTitle>Login</PageTitle>
+
+@if (bMostrarConteudo)
+{
+    <div class="container backgroud-main">
+        <div class="content flex" style="justify-content: center; align-items: center;">
+
+            <div style="position: relative; width: 100%;">
+                <div class="main-div-content-page en-animate glow">
+                    <div class="flex flex-column">
+                        <div>
+                            <h1 class="main-text">Faça seu Login</h1>
+                        </div>
+
+                        <div class="subtitle-login">
+                            <span>
+                                Insira suas informações antes <br /> de medir seu IMC
+                            </span>
+                        </div>
+
+                        <div>
+                            <div class="group-input" style="align-items: center;">
+                                <input @bind-value="emailUsuario" placeholder="Seu e-mail" class="main-input" type="email" />
+                            </div>
+                            <div class="group-input">
+                                <input @bind-value="senhaUsuario" placeholder="Sua senha" class="main-input" type="password" />
+                            </div>
+                        </div>
+
+                        <div style="margin-top: 15px; margin-bottom: 15px;">
+                            <input checked="@naoSouRobo" @onchange="OnCheckboxChange" type="checkbox" class="input-checkbox" id="robo" name="robo" />
+                            <label class="label-checkbox" for="robo">Não sou um robô</label>
+                        </div>
+
+                        <div>
+                            <button @onclick="OnClickFazerLogin" class="main-button"><b>Fazer login</b></button>
+                        </div>
+                        <div>
+                            <button @onclick="OnClickCadastrar" class="second-button"><b>Não tenho um acesso</b></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flutuante en-animate">
+                    <div class="div-img-logo">
+                        <img class="img-imc-logo" src="assets/icon-no-bg.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+}
+else
+{
+    <Splash></Splash>
+}

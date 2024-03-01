@@ -9,3 +9,9 @@ function blazorCloseModal(dialog) {
         dialog.close();
     }
 }
+
+window.scrollToElement = function () {
+    let element = document.getElementById('componentHistorico');
+
+    element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}

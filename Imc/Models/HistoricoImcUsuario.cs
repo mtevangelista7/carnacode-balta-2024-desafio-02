@@ -5,5 +5,6 @@
         public double Imc { get; set; }
         public DateTime DataImc { get; set; }
         public string Classificacao { get; set; }
+        public string EmailUsuario { get; set; }
     }
 }

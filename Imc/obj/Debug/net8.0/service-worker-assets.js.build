@@ -1,6 +1,34 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
+      "hash": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=",
+      "url": ".nodejekyll"
+    },
+    {
+      "hash": "sha256-DAqMhjxWDbJ2ve7SIGd+KAw8S+KGWhNEyiuC52FfA0Y=",
+      "url": "assets\/android\/android-launchericon-144-144.png"
+    },
+    {
+      "hash": "sha256-wWOb2usVVu69owNgX1MDj21Io00882E8XoCPm6pLgJs=",
+      "url": "assets\/android\/android-launchericon-192-192.png"
+    },
+    {
+      "hash": "sha256-l7hK\/DxW4fDS+OkL2UgrYLzeXNkcdn9osUNJDWnzu4k=",
+      "url": "assets\/android\/android-launchericon-48-48.png"
+    },
+    {
+      "hash": "sha256-rYQaWuQJYAdHxWTQLJy73Geukb9HoJsdI\/1oPxonexY=",
+      "url": "assets\/android\/android-launchericon-512-512.png"
+    },
+    {
+      "hash": "sha256-uCQ2OCyv39cBNsZgjhSCDOa4mHFNi3\/DppFnAnFhmjc=",
+      "url": "assets\/android\/android-launchericon-72-72.png"
+    },
+    {
+      "hash": "sha256-1PE1D9PeE29JGRXYWuxiqFxhBSEF\/ZIPYpnndAIf+kU=",
+      "url": "assets\/android\/android-launchericon-96-96.png"
+    },
+    {
       "hash": "sha256-5hh3frNWVFQ5SbqZrM493\/EbiBJLXSkOaFLtJfGlhcc=",
       "url": "assets\/icon-no-bg.png"
     },
@@ -9,7 +37,431 @@
       "url": "assets\/icon.png"
     },
     {
-      "hash": "sha256-SNYvh+ki4l35\/GjkMDciq0dDGq50gJWJYXOG9s5AdFk=",
+      "hash": "sha256-BwSzJFueSnK95yOwG3oUTW6R4Xhs3z8F6nKiDF\/fFi4=",
+      "url": "assets\/ios\/100.png"
+    },
+    {
+      "hash": "sha256-oakJFz4nOrI1IVYhDSzVgbONJwa6Y40sSJPfdlGrSZo=",
+      "url": "assets\/ios\/1024.png"
+    },
+    {
+      "hash": "sha256-zvtlVHlel3cyaXWS28d39YpHOa+h13gmarL7ctMR8iw=",
+      "url": "assets\/ios\/114.png"
+    },
+    {
+      "hash": "sha256-raX0a+O+JTXhGfLbyZq5ARywYCY7VnJN7y0a7VUMvpI=",
+      "url": "assets\/ios\/120.png"
+    },
+    {
+      "hash": "sha256-zl9Dnuz8GsiN7rJye9bpiz1BJTsg3icLrTEJkDEPQrs=",
+      "url": "assets\/ios\/128.png"
+    },
+    {
+      "hash": "sha256-DAqMhjxWDbJ2ve7SIGd+KAw8S+KGWhNEyiuC52FfA0Y=",
+      "url": "assets\/ios\/144.png"
+    },
+    {
+      "hash": "sha256-gJXkdLzuS9QuNRuoFn2hCGPQ\/oRN6AzAIsCc4G7+ZJw=",
+      "url": "assets\/ios\/152.png"
+    },
+    {
+      "hash": "sha256-8BBoe6crYsvobYvtX5ajYDnzUDWr6sQcKzAFCptBzSc=",
+      "url": "assets\/ios\/16.png"
+    },
+    {
+      "hash": "sha256-LGhghlzHUza2MkV7HgWZEpMV3CldW28whpdeRJCsVlM=",
+      "url": "assets\/ios\/167.png"
+    },
+    {
+      "hash": "sha256-kDsUvqoqBpOTFIl9MXAXsZJzDURv1VmvzK0ZeKAoFYg=",
+      "url": "assets\/ios\/180.png"
+    },
+    {
+      "hash": "sha256-wWOb2usVVu69owNgX1MDj21Io00882E8XoCPm6pLgJs=",
+      "url": "assets\/ios\/192.png"
+    },
+    {
+      "hash": "sha256-jiEhabZ+3Fjry6\/NciPD0z7ZiGvtgyz3qfVmvoMzxEI=",
+      "url": "assets\/ios\/20.png"
+    },
+    {
+      "hash": "sha256-QWmBkvl43mOKQlExePvCBfqjZxT+oj57gqxqNUnDKgM=",
+      "url": "assets\/ios\/256.png"
+    },
+    {
+      "hash": "sha256-RipuCRVSYt8BPeBuorQjQk3wr5Di0ORx2K0MyyJI5VU=",
+      "url": "assets\/ios\/29.png"
+    },
+    {
+      "hash": "sha256-0XQVrz50Yd1AKmaykr66cbGmzbeTsHKYqcyO5QThgxc=",
+      "url": "assets\/ios\/32.png"
+    },
+    {
+      "hash": "sha256-PU4BOiibXbKQrmImLVW6FBUUcSVwfcxFhw+5lsKvdU0=",
+      "url": "assets\/ios\/40.png"
+    },
+    {
+      "hash": "sha256-6gct26OLbBpPHxOHlHpXQy6FSENemZJIrQeFyjuS9RE=",
+      "url": "assets\/ios\/50.png"
+    },
+    {
+      "hash": "sha256-rYQaWuQJYAdHxWTQLJy73Geukb9HoJsdI\/1oPxonexY=",
+      "url": "assets\/ios\/512.png"
+    },
+    {
+      "hash": "sha256-v8PCQ\/2pjUSBp0X45xHhxZXIZ84yDshlcxDPR37+O1Y=",
+      "url": "assets\/ios\/57.png"
+    },
+    {
+      "hash": "sha256-Q88Ga2\/WCmZQwu6Lv3a7AMSejkuoy\/4UfuA2gmbwGI8=",
+      "url": "assets\/ios\/58.png"
+    },
+    {
+      "hash": "sha256-Gn1t\/NqGl+RldFudcA4C7js\/rM7M7m7TxM7KXDZakC8=",
+      "url": "assets\/ios\/60.png"
+    },
+    {
+      "hash": "sha256-3HVcfoKD8B+qzgzqCLwdJ22r68vYk4pPORgYx\/VJUYA=",
+      "url": "assets\/ios\/64.png"
+    },
+    {
+      "hash": "sha256-uCQ2OCyv39cBNsZgjhSCDOa4mHFNi3\/DppFnAnFhmjc=",
+      "url": "assets\/ios\/72.png"
+    },
+    {
+      "hash": "sha256-sNKhUE4KTnQ\/tbaFINv2ivuQy9\/H7rlriQb4xCYiX9U=",
+      "url": "assets\/ios\/76.png"
+    },
+    {
+      "hash": "sha256-+FmfFxH+4pMmy3h9i90wt\/O9hLta\/WdCedqfgORbVNM=",
+      "url": "assets\/ios\/80.png"
+    },
+    {
+      "hash": "sha256-86Bmx5hqQO5DcMdUBEXXKlHJ\/egh\/RpQykTSsA1KTKc=",
+      "url": "assets\/ios\/87.png"
+    },
+    {
+      "hash": "sha256-mC82aG5ILh+IxjsYwTbyOnfBahfny4IEiM+QbR8jDPA=",
+      "url": "assets\/windows11\/LargeTile.scale-100.png"
+    },
+    {
+      "hash": "sha256-b\/inZ5VI32lIR5PsHr01h5WJq9PLob3wIzYFgIs\/WA0=",
+      "url": "assets\/windows11\/LargeTile.scale-125.png"
+    },
+    {
+      "hash": "sha256-EWWPknhb6u1hSBthtGonXQBaoS7CgvyxLmuKLEEzloE=",
+      "url": "assets\/windows11\/LargeTile.scale-150.png"
+    },
+    {
+      "hash": "sha256-nYpdNP8\/XVLP\/yGa2WFbTSrZiGiqLRzGINNbnZuAsdc=",
+      "url": "assets\/windows11\/LargeTile.scale-200.png"
+    },
+    {
+      "hash": "sha256-WJmBygBkYy+jm+nEmvB7ukCQSil+bDZ2ZgErVU+Xz8w=",
+      "url": "assets\/windows11\/LargeTile.scale-400.png"
+    },
+    {
+      "hash": "sha256-bt73+4S4NTrwjXHJ9lp5WDh8qcQ3BbSypz2gH4ELMWA=",
+      "url": "assets\/windows11\/SmallTile.scale-100.png"
+    },
+    {
+      "hash": "sha256-dX6Wa2vKG83a9VaqlzRxILNbJJo6BUcEBVm\/yXPe\/BE=",
+      "url": "assets\/windows11\/SmallTile.scale-125.png"
+    },
+    {
+      "hash": "sha256-iLbrWwnIjXI3Z\/b1MpSXtGy2Y+6ZCcQeHTNlTqGVzEU=",
+      "url": "assets\/windows11\/SmallTile.scale-150.png"
+    },
+    {
+      "hash": "sha256-05UGQzg0majJUqg0+RyAMbpt4fRI7CUiFuZ0VHkNFwA=",
+      "url": "assets\/windows11\/SmallTile.scale-200.png"
+    },
+    {
+      "hash": "sha256-vJ+shDmtUlNNeMKX9Ckp8XIDd9slJFXjj9BRdWbloh4=",
+      "url": "assets\/windows11\/SmallTile.scale-400.png"
+    },
+    {
+      "hash": "sha256-KbXi5PPwBN99PP91xRY10Wk3sSv6zn3Z4QXyv8c\/Q\/g=",
+      "url": "assets\/windows11\/SplashScreen.scale-100.png"
+    },
+    {
+      "hash": "sha256-dnRs\/jtz3tvuXp7cqp2ksfnoFOu5GsTmvyUXJy9HWBU=",
+      "url": "assets\/windows11\/SplashScreen.scale-125.png"
+    },
+    {
+      "hash": "sha256-3xbSdSpu8Z1TUGx5bHf0G0Uzx+Qi1qU7dcVw316Wwbw=",
+      "url": "assets\/windows11\/SplashScreen.scale-150.png"
+    },
+    {
+      "hash": "sha256-1IHvztAzEI\/nknLGr8Y7TwS0vvaogqfnZJVypIjWXIU=",
+      "url": "assets\/windows11\/SplashScreen.scale-200.png"
+    },
+    {
+      "hash": "sha256-s+IGZtUlgGm5Wbxrjne3XwnN0E06iZl3M65XANdCBPk=",
+      "url": "assets\/windows11\/SplashScreen.scale-400.png"
+    },
+    {
+      "hash": "sha256-eAHjgL1\/RNzERGnBmj4G7QojZLFSc6cti1onDG+JnNc=",
+      "url": "assets\/windows11\/Square150x150Logo.scale-100.png"
+    },
+    {
+      "hash": "sha256-4Ut0pTHuPvDL7MQlxAXMiFgoGeDkvLUrY9nmzbaCia8=",
+      "url": "assets\/windows11\/Square150x150Logo.scale-125.png"
+    },
+    {
+      "hash": "sha256-OTJKwT5oFd3N3i11Hzy9c1jTC6Wo6jopMyxcRQp4KGQ=",
+      "url": "assets\/windows11\/Square150x150Logo.scale-150.png"
+    },
+    {
+      "hash": "sha256-eBML6Y3iK3QvDOdstkMyWvoqMpGe1bAKnSLafQ74S0M=",
+      "url": "assets\/windows11\/Square150x150Logo.scale-200.png"
+    },
+    {
+      "hash": "sha256-TPzTqqGVbuFabv1ggpnNWB\/leDU96vpc7UFT8xGojHY=",
+      "url": "assets\/windows11\/Square150x150Logo.scale-400.png"
+    },
+    {
+      "hash": "sha256-kSQsAZFnUHhxM1mwD\/RfCgpqvUfCq\/XzT2rNPbRgQjE=",
+      "url": "assets\/windows11\/Square44x44Logo.altform-lightunplated_targetsize-16.png"
+    },
+    {
+      "hash": "sha256-Jry33jiB2D6nzukMQa0RiHAWBQ9tORYjsGXkIlurEIY=",
+      "url": "assets\/windows11\/Square44x44Logo.altform-lightunplated_targetsize-20.png"
+    },
+    {
+      "hash": "sha256-aYaxwqrUuJoM69VCuaARVR5Pzjaylk+GnqVZ0YzwbT4=",
+      "url": "assets\/windows11\/Square44x44Logo.altform-lightunplated_targetsize-24.png"
+    },
+    {
+      "hash": "sha256-aoRbdqV533+2cG7x\/wpZIrE+\/JmQtv6pzyB0LCFeUOg=",
+      "url": "assets\/windows11\/Square44x44Logo.altform-lightunplated_targetsize-256.png"
+    },
+    {
+      "hash": "sha256-71jaB\/\/5flZ3JyUH+lFXzoLmHkPzyoTHNZAqnLtd494=",
+      "url": "assets\/windows11\/Square44x44Logo.altform-lightunplated_targetsize-30.png"
+    },
+    {
+      "hash": "sha256-1qTSjUN65mtu4wyXe+RLYvHiOD5HTJMK2DyGGA2cRuY=",
+      "url": "assets\/windows11\/Square44x44Logo.altform-lightunplated_targetsize-32.png"
+    },
+    {
+      "hash": "sha256-G2fGeFBck\/iwe+i4\/gsn3EBnbzJz1LhSW37PngtjMAY=",
+      "url": "assets\/windows11\/Square44x44Logo.altform-lightunplated_targetsize-36.png"
+    },
+    {
+      "hash": "sha256-AUkuW9p\/szIYjz+yLsDCM2fUfaZZk6\/lN\/sqIB8K1fw=",
+      "url": "assets\/windows11\/Square44x44Logo.altform-lightunplated_targetsize-40.png"
+    },
+    {
+      "hash": "sha256-oMQWa0Utro0yr\/Xd19lxoXbrQKzCItJYSYilSKZu+T0=",
+      "url": "assets\/windows11\/Square44x44Logo.altform-lightunplated_targetsize-44.png"
+    },
+    {
+      "hash": "sha256-M89ILh4qn3vui5FufmGvRXJLpBRmrQVtlT7e0MN5N1U=",
+      "url": "assets\/windows11\/Square44x44Logo.altform-lightunplated_targetsize-48.png"
+    },
+    {
+      "hash": "sha256-yfQFsnGQVWyIfQD1eY+BTEBkKXvWtZ1Kzl7VAzvTFgA=",
+      "url": "assets\/windows11\/Square44x44Logo.altform-lightunplated_targetsize-60.png"
+    },
+    {
+      "hash": "sha256-PlY4IBLtWkoEmnUDcEBwGoGO82Ma2NybLz81dsfNXS8=",
+      "url": "assets\/windows11\/Square44x44Logo.altform-lightunplated_targetsize-64.png"
+    },
+    {
+      "hash": "sha256-qZqcoXPWiNRBPrGfk2s1l1bW3lYEsPWPA+Ycpn+YYfk=",
+      "url": "assets\/windows11\/Square44x44Logo.altform-lightunplated_targetsize-72.png"
+    },
+    {
+      "hash": "sha256-9saMBjHbudCuEDw0KpptPZPgvJlsIVdMaXJnVVGC0xw=",
+      "url": "assets\/windows11\/Square44x44Logo.altform-lightunplated_targetsize-80.png"
+    },
+    {
+      "hash": "sha256-mnXlfywefx3wA7htQORL+aafbPckUqpmspB1omnAt1c=",
+      "url": "assets\/windows11\/Square44x44Logo.altform-lightunplated_targetsize-96.png"
+    },
+    {
+      "hash": "sha256-kSQsAZFnUHhxM1mwD\/RfCgpqvUfCq\/XzT2rNPbRgQjE=",
+      "url": "assets\/windows11\/Square44x44Logo.altform-unplated_targetsize-16.png"
+    },
+    {
+      "hash": "sha256-Jry33jiB2D6nzukMQa0RiHAWBQ9tORYjsGXkIlurEIY=",
+      "url": "assets\/windows11\/Square44x44Logo.altform-unplated_targetsize-20.png"
+    },
+    {
+      "hash": "sha256-aYaxwqrUuJoM69VCuaARVR5Pzjaylk+GnqVZ0YzwbT4=",
+      "url": "assets\/windows11\/Square44x44Logo.altform-unplated_targetsize-24.png"
+    },
+    {
+      "hash": "sha256-aoRbdqV533+2cG7x\/wpZIrE+\/JmQtv6pzyB0LCFeUOg=",
+      "url": "assets\/windows11\/Square44x44Logo.altform-unplated_targetsize-256.png"
+    },
+    {
+      "hash": "sha256-71jaB\/\/5flZ3JyUH+lFXzoLmHkPzyoTHNZAqnLtd494=",
+      "url": "assets\/windows11\/Square44x44Logo.altform-unplated_targetsize-30.png"
+    },
+    {
+      "hash": "sha256-1qTSjUN65mtu4wyXe+RLYvHiOD5HTJMK2DyGGA2cRuY=",
+      "url": "assets\/windows11\/Square44x44Logo.altform-unplated_targetsize-32.png"
+    },
+    {
+      "hash": "sha256-G2fGeFBck\/iwe+i4\/gsn3EBnbzJz1LhSW37PngtjMAY=",
+      "url": "assets\/windows11\/Square44x44Logo.altform-unplated_targetsize-36.png"
+    },
+    {
+      "hash": "sha256-AUkuW9p\/szIYjz+yLsDCM2fUfaZZk6\/lN\/sqIB8K1fw=",
+      "url": "assets\/windows11\/Square44x44Logo.altform-unplated_targetsize-40.png"
+    },
+    {
+      "hash": "sha256-oMQWa0Utro0yr\/Xd19lxoXbrQKzCItJYSYilSKZu+T0=",
+      "url": "assets\/windows11\/Square44x44Logo.altform-unplated_targetsize-44.png"
+    },
+    {
+      "hash": "sha256-M89ILh4qn3vui5FufmGvRXJLpBRmrQVtlT7e0MN5N1U=",
+      "url": "assets\/windows11\/Square44x44Logo.altform-unplated_targetsize-48.png"
+    },
+    {
+      "hash": "sha256-yfQFsnGQVWyIfQD1eY+BTEBkKXvWtZ1Kzl7VAzvTFgA=",
+      "url": "assets\/windows11\/Square44x44Logo.altform-unplated_targetsize-60.png"
+    },
+    {
+      "hash": "sha256-PlY4IBLtWkoEmnUDcEBwGoGO82Ma2NybLz81dsfNXS8=",
+      "url": "assets\/windows11\/Square44x44Logo.altform-unplated_targetsize-64.png"
+    },
+    {
+      "hash": "sha256-qZqcoXPWiNRBPrGfk2s1l1bW3lYEsPWPA+Ycpn+YYfk=",
+      "url": "assets\/windows11\/Square44x44Logo.altform-unplated_targetsize-72.png"
+    },
+    {
+      "hash": "sha256-9saMBjHbudCuEDw0KpptPZPgvJlsIVdMaXJnVVGC0xw=",
+      "url": "assets\/windows11\/Square44x44Logo.altform-unplated_targetsize-80.png"
+    },
+    {
+      "hash": "sha256-mnXlfywefx3wA7htQORL+aafbPckUqpmspB1omnAt1c=",
+      "url": "assets\/windows11\/Square44x44Logo.altform-unplated_targetsize-96.png"
+    },
+    {
+      "hash": "sha256-oMQWa0Utro0yr\/Xd19lxoXbrQKzCItJYSYilSKZu+T0=",
+      "url": "assets\/windows11\/Square44x44Logo.scale-100.png"
+    },
+    {
+      "hash": "sha256-volQ9PoPGg0+78cfcmQY0Oj+TEr13uW1vN0qMOpMBSk=",
+      "url": "assets\/windows11\/Square44x44Logo.scale-125.png"
+    },
+    {
+      "hash": "sha256-nE2VxE1JwZ0UGUy8U0uW29wlTtfBo10oJNB5vW+jfdk=",
+      "url": "assets\/windows11\/Square44x44Logo.scale-150.png"
+    },
+    {
+      "hash": "sha256-b4MOE2pV+flaQFHajHSyNVVkdH90NiAcUhlQpuHALbY=",
+      "url": "assets\/windows11\/Square44x44Logo.scale-200.png"
+    },
+    {
+      "hash": "sha256-r67bavX+uvcoUKgvgeMQ1HdIA98BIrmWaUMIAe6umbg=",
+      "url": "assets\/windows11\/Square44x44Logo.scale-400.png"
+    },
+    {
+      "hash": "sha256-kSQsAZFnUHhxM1mwD\/RfCgpqvUfCq\/XzT2rNPbRgQjE=",
+      "url": "assets\/windows11\/Square44x44Logo.targetsize-16.png"
+    },
+    {
+      "hash": "sha256-Jry33jiB2D6nzukMQa0RiHAWBQ9tORYjsGXkIlurEIY=",
+      "url": "assets\/windows11\/Square44x44Logo.targetsize-20.png"
+    },
+    {
+      "hash": "sha256-aYaxwqrUuJoM69VCuaARVR5Pzjaylk+GnqVZ0YzwbT4=",
+      "url": "assets\/windows11\/Square44x44Logo.targetsize-24.png"
+    },
+    {
+      "hash": "sha256-aoRbdqV533+2cG7x\/wpZIrE+\/JmQtv6pzyB0LCFeUOg=",
+      "url": "assets\/windows11\/Square44x44Logo.targetsize-256.png"
+    },
+    {
+      "hash": "sha256-71jaB\/\/5flZ3JyUH+lFXzoLmHkPzyoTHNZAqnLtd494=",
+      "url": "assets\/windows11\/Square44x44Logo.targetsize-30.png"
+    },
+    {
+      "hash": "sha256-1qTSjUN65mtu4wyXe+RLYvHiOD5HTJMK2DyGGA2cRuY=",
+      "url": "assets\/windows11\/Square44x44Logo.targetsize-32.png"
+    },
+    {
+      "hash": "sha256-G2fGeFBck\/iwe+i4\/gsn3EBnbzJz1LhSW37PngtjMAY=",
+      "url": "assets\/windows11\/Square44x44Logo.targetsize-36.png"
+    },
+    {
+      "hash": "sha256-AUkuW9p\/szIYjz+yLsDCM2fUfaZZk6\/lN\/sqIB8K1fw=",
+      "url": "assets\/windows11\/Square44x44Logo.targetsize-40.png"
+    },
+    {
+      "hash": "sha256-oMQWa0Utro0yr\/Xd19lxoXbrQKzCItJYSYilSKZu+T0=",
+      "url": "assets\/windows11\/Square44x44Logo.targetsize-44.png"
+    },
+    {
+      "hash": "sha256-M89ILh4qn3vui5FufmGvRXJLpBRmrQVtlT7e0MN5N1U=",
+      "url": "assets\/windows11\/Square44x44Logo.targetsize-48.png"
+    },
+    {
+      "hash": "sha256-yfQFsnGQVWyIfQD1eY+BTEBkKXvWtZ1Kzl7VAzvTFgA=",
+      "url": "assets\/windows11\/Square44x44Logo.targetsize-60.png"
+    },
+    {
+      "hash": "sha256-PlY4IBLtWkoEmnUDcEBwGoGO82Ma2NybLz81dsfNXS8=",
+      "url": "assets\/windows11\/Square44x44Logo.targetsize-64.png"
+    },
+    {
+      "hash": "sha256-qZqcoXPWiNRBPrGfk2s1l1bW3lYEsPWPA+Ycpn+YYfk=",
+      "url": "assets\/windows11\/Square44x44Logo.targetsize-72.png"
+    },
+    {
+      "hash": "sha256-9saMBjHbudCuEDw0KpptPZPgvJlsIVdMaXJnVVGC0xw=",
+      "url": "assets\/windows11\/Square44x44Logo.targetsize-80.png"
+    },
+    {
+      "hash": "sha256-mnXlfywefx3wA7htQORL+aafbPckUqpmspB1omnAt1c=",
+      "url": "assets\/windows11\/Square44x44Logo.targetsize-96.png"
+    },
+    {
+      "hash": "sha256-6gct26OLbBpPHxOHlHpXQy6FSENemZJIrQeFyjuS9RE=",
+      "url": "assets\/windows11\/StoreLogo.scale-100.png"
+    },
+    {
+      "hash": "sha256-sffde\/aED3Dk5gTZ7Ew50t+\/zRWzhrPR82MxJjxB+BQ=",
+      "url": "assets\/windows11\/StoreLogo.scale-125.png"
+    },
+    {
+      "hash": "sha256-wcTIyos5RFNAMQOBrMrVSsMxHG59akCeJZc\/2Jm47nE=",
+      "url": "assets\/windows11\/StoreLogo.scale-150.png"
+    },
+    {
+      "hash": "sha256-BwSzJFueSnK95yOwG3oUTW6R4Xhs3z8F6nKiDF\/fFi4=",
+      "url": "assets\/windows11\/StoreLogo.scale-200.png"
+    },
+    {
+      "hash": "sha256-2j46Biu\/rsNc803tSC+KlPW365+oiN3eRxh2iUMq4bg=",
+      "url": "assets\/windows11\/StoreLogo.scale-400.png"
+    },
+    {
+      "hash": "sha256-X4SYqFhz58+G1UuVbgMiq504qvSUe8MfMwaC6bYkX14=",
+      "url": "assets\/windows11\/Wide310x150Logo.scale-100.png"
+    },
+    {
+      "hash": "sha256-W7MOY+vjxIPleROhvBDve6KBEqlCTVL2+jM\/fYMq4Gg=",
+      "url": "assets\/windows11\/Wide310x150Logo.scale-125.png"
+    },
+    {
+      "hash": "sha256-NAzvsoDUPaIthoFqO31SCpoCKfaBoIeZM1tJVXqqzZQ=",
+      "url": "assets\/windows11\/Wide310x150Logo.scale-150.png"
+    },
+    {
+      "hash": "sha256-KbXi5PPwBN99PP91xRY10Wk3sSv6zn3Z4QXyv8c\/Q\/g=",
+      "url": "assets\/windows11\/Wide310x150Logo.scale-200.png"
+    },
+    {
+      "hash": "sha256-1IHvztAzEI\/nknLGr8Y7TwS0vvaogqfnZJVypIjWXIU=",
+      "url": "assets\/windows11\/Wide310x150Logo.scale-400.png"
+    },
+    {
+      "hash": "sha256-T3n8bFRZgmXhFvIEdYxbMBy21bcG1ef6VDhDV1UCFkI=",
       "url": "css\/app.css"
     },
     {
@@ -25,15 +477,15 @@
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-hLAPgluGHgKnRhzMkw6QmYFaJF7vkYcPEFzxcPGDorw=",
+      "hash": "sha256-YaqWIbF8dMJ6bRMU\/kuLRCPB04kC6OFsoUL5mwxSHlw=",
       "url": "imc.js"
     },
     {
-      "hash": "sha256-csYIHR8R72laBWKPJahpU+xmCCPgtR6plbUW6pR2c0Y=",
+      "hash": "sha256-HqR2syY4xcUlZl\/t9DuuwBF9h\/2mZtfjR3iVFV12\/vw=",
       "url": "index.html"
     },
     {
-      "hash": "sha256-+iRUzSCEVu6v8WBk8H7kjwhZDtp+sSFgN5kvdtuLyCI=",
+      "hash": "sha256-SEuj55nYbEJWGQLIvbTpEg21VrozmwL2aifjErXSA50=",
       "url": "manifest.webmanifest"
     },
     {
@@ -41,12 +493,12 @@
       "url": "sample-data\/weather.json"
     },
     {
-      "hash": "sha256-rcIWTVNnYus6VWf2Z2U1g\/JzlC07Ym02cFjHtI59Xsc=",
-      "url": "_framework\/blazor.webassembly.js"
+      "hash": "sha256-jLOtxd0eKrx7ANaHA0fgagGPjkiVX0IF09SSDCv1g1k=",
+      "url": "Imc.styles.css"
     },
     {
-      "hash": "sha256-b+OJKrOp3TjYeQm+OO3WI8Myf9fGxYJt7XvA9FhT62s=",
-      "url": "Imc.styles.css"
+      "hash": "sha256-rcIWTVNnYus6VWf2Z2U1g\/JzlC07Ym02cFjHtI59Xsc=",
+      "url": "_framework\/blazor.webassembly.js"
     },
     {
       "hash": "sha256-OaMAAd5n7ORfyur5e3QIyEVKJ76MKIvwbg7\/icnnYcU=",
@@ -853,17 +1305,17 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-fCEXY9Q3+Pqnrox4UoE3RfURv9HVppzRM6plHKCEtOw=",
+      "hash": "sha256-rL18LzCa1d7yJH8LZVKcFFzRrpN0gLCpfOOAlKFA91s=",
       "url": "_framework\/Imc.wasm"
     },
     {
-      "hash": "sha256-UXcIxtl\/MMOdoOBSLzzGlx6ijaziOXv6UzJyLhq4uRA=",
+      "hash": "sha256-Hn6tXNZE3pSs3kvfG9CwZ6BQEsqSFk4lEK\/BwEvg1LE=",
       "url": "_framework\/Imc.pdb"
     },
     {
-      "hash": "sha256-gW9R+blLh6HzFByjX+KiFWO6aJkNHWylmyWc\/XZXL44=",
+      "hash": "sha256-pnpiJlz96YOH551ggOLHm2IKePqBRh5EBJnNnOGCTSs=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "V37cXxe3"
+  "version": "JCl2n1JU"
 };

@@ -171,12 +171,21 @@ namespace Imc.Shared
             possui65AnosOuMais = (bool)e.Value;
         }
 
-        protected void OnClickFecharModal()
+        protected async Task OnClickFecharModal()
         {
             valorImcDialog = 0;
             classificacaoImcDialog = "";
 
-            jSRuntime.InvokeVoidAsync("blazorCloseModal", _element);
+            await jSRuntime.InvokeVoidAsync("blazorCloseModal", _element);
+        }
+
+        protected async Task OnClickFecharModalHistorico()
+        {
+            valorImcDialog = 0;
+            classificacaoImcDialog = "";
+
+            await jSRuntime.InvokeVoidAsync("blazorCloseModal", _element);
+            await jSRuntime.InvokeVoidAsync("scrollToElement");
         }
     }
 }

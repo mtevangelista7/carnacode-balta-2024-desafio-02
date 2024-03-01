@@ -26,6 +26,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/mathe/source/repos/carnacode-balta-2024-desafio-02/Imc/Pages/Cadastro.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FkYXN0cm8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/mathe/source/repos/carnacode-balta-2024-desafio-02/Imc/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -41,6 +45,10 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/mathe/source/repos/carnacode-balta-2024-desafio-02/Imc/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-j6tei9dcxl
+
+[C:/Users/mathe/source/repos/carnacode-balta-2024-desafio-02/Imc/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-jvwl78ee11
 
 [C:/Users/mathe/source/repos/carnacode-balta-2024-desafio-02/Imc/Shared/HistoricoIMC.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEhpc3Rvcmljb0lNQy5yYXpvcg==

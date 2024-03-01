@@ -16,7 +16,12 @@
                 <input placeholder="Peso" @bind-value="pesoUsuario" class="main-input" type="number" />
             </div>
             <div class="group-input">
-                <input placeholder="Sexo" @bind-value="sexoUsuario" class="main-input" type="text" />
+                <select @bind="sexoUsuario" class="main-input">
+                    <option value="" disabled selected>Sexo</option>
+                    <option value="M">Masculino</option>
+                    <option value="F">Feminino</option>
+                    <option value="O">Outro</option>
+                </select>
             </div>
 
             <div style="margin-top: 15px; margin-bottom: 15px;">
@@ -28,11 +33,17 @@
                 <button @onclick="OnClickCalcularImc" class="main-button"><b>Calcular meu IMC</b></button>
             </div>
             <div>
-                <button class="second-button"><b>Entenda o cálculo</b></button>
+                <button class="second-button">
+                    <a style="text-decoration:none; color: inherit" target="_blank" href="http://tabnet.datasus.gov.br/cgi-win/SISVAN/CNV/notas_sisvan.html">
+                        <b>Entenda o cálculo</b>
+                    </a>
+                </button>
             </div>
         </div>
     </div>
 </div>
+
+
 
 <dialog @ref="_element" class="backgroud-main" style="width: 100%; overflow:hidden">
     <div class="container">
@@ -41,35 +52,72 @@
                 <div class="main-div-content-page en-animate glow">
                     <div class="flex flex-column">
 
-                        @if (valorImcDialog >= 18.5 && valorImcDialog < 24.9)
+                        @if (possui65AnosOuMais)
                         {
-                            <h1 class="main-text">✅ Parabéns!</h1>
-
-                            <div class="subtitle-login">
-                                <span>
-                                    Você está no peso ideal, continue <br /> mantendo este estilo!
-                                </span>
-                            </div>
-                        }
-                        else
-                        {
-                            <h1 class="main-text">⛔️ @classificacaoImcDialog</h1>
-                            
-                            @if (valorImcDialog < 18.5)
+                            @if (valorImcDialog >= 22 && valorImcDialog < 27)
                             {
+                                <h1 class="main-text">✅ Parabéns!</h1>
+
                                 <div class="subtitle-login">
                                     <span>
-                                        Cuidado você está com o peso abaixo do ideal, <br /> dê uma atenção para sua saúde
+                                        Você está no peso ideal, continue <br /> mantendo este estilo!
                                     </span>
                                 </div>
                             }
                             else
                             {
+                                <h1 class="main-text">⛔️ @classificacaoImcDialog</h1>
+
+                                @if (valorImcDialog < 22)
+                                {
+                                    <div class="subtitle-login">
+                                        <span>
+                                            Cuidado você está com o peso abaixo do ideal, <br /> dê uma atenção para sua saúde
+                                        </span>
+                                    </div>
+                                }
+                                else
+                                {
+                                    <div class="subtitle-login">
+                                        <span>
+                                            Cuidado você está com sobrepeso, <br /> dê uma atenção para sua saúde
+                                        </span>
+                                    </div>
+                                }
+                            }
+                        }
+                        else
+                        {
+                            @if (valorImcDialog >= 18.5 && valorImcDialog < 24.9)
+                            {
+                                <h1 class="main-text">✅ Parabéns!</h1>
+
                                 <div class="subtitle-login">
                                     <span>
-                                        Cuidado você está com sobrepeso, <br /> dê uma atenção para sua saúde
+                                        Você está no peso ideal, continue <br /> mantendo este estilo!
                                     </span>
                                 </div>
+                            }
+                            else
+                            {
+                                <h1 class="main-text">⛔️ @classificacaoImcDialog</h1>
+
+                                @if (valorImcDialog < 18.5)
+                                {
+                                    <div class="subtitle-login">
+                                        <span>
+                                            Cuidado você está com o peso abaixo do ideal, <br /> dê uma atenção para sua saúde
+                                        </span>
+                                    </div>
+                                }
+                                else
+                                {
+                                    <div class="subtitle-login">
+                                        <span>
+                                            Cuidado você está com sobrepeso, <br /> dê uma atenção para sua saúde
+                                        </span>
+                                    </div>
+                                }
                             }
                         }
 
@@ -77,7 +125,7 @@
                             <button @onclick="OnClickFecharModal" class="main-button"><b>Registrar medidas</b></button>
                         </div>
                         <div>
-                            <button @onclick="OnClickFecharModal" class="second-button"><b>Ver meu histórico</b></button>
+                            <button @onclick="OnClickFecharModalHistorico" class="second-button"><b>Ver meu histórico</b></button>
                         </div>
                     </div>
                 </div>
