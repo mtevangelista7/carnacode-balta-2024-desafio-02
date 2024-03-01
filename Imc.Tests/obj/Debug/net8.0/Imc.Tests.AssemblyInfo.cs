@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Imc")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Imc.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("Imc")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Imc")]
+[assembly: System.Reflection.AssemblyProductAttribute("Imc.Tests")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Imc.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
